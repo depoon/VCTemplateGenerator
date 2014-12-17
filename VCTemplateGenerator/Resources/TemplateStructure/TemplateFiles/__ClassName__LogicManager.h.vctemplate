@@ -1,0 +1,13 @@
+//  __ClassName__LogicManager.h
+//  __ClassName__
+
+#import <Foundation/Foundation.h>
+#import "__ClassName__LogicManagerDelegate.h"
+#import "__ClassName__ViewManagerDelegate.h"
+#import "__ClassName__ViewModel.h"
+#import "__ClassName__LmToVcProtocol.h"
+
+
+@interface __ClassName__LogicManager : NSObject<__ClassName__ViewManagerDelegate, __ClassName__LmToVcProtocol>
+@property (nonatomic, weak) NSObject <__ClassName__LogicManagerDelegate>* logicManagerDelegate;
+@end

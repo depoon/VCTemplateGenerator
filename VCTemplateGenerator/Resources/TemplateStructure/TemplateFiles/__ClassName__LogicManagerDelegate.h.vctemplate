@@ -1,0 +1,8 @@
+//  __ClassName__LogicManagerDelegate.h
+//  __ClassName__
+
+#import <Foundation/Foundation.h>
+
+@protocol __ClassName__LogicManagerDelegate <NSObject>
+
+@end

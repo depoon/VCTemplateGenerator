@@ -1,0 +1,31 @@
+//  __ClassName__DomainObjectTest.m
+//  __ClassName__
+
+#import "PGXCTestCase.h"
+#import "__ClassName__DomainObject.h"
+#import "OCMockObject.h"
+#import "OCMArg.h"
+#import "OCMockRecorder.h"
+
+
+@interface __ClassName__DomainObjectTest : PGXCTestCase
+
+@end
+
+@implementation __ClassName__DomainObjectTest
+
+__ClassName__DomainObject* sut;
+
+- (void)setUp{
+    [super setUp];
+}
+
+- (void)tearDown{
+    [super tearDown];
+    sut = nil;
+}
+
+
+
+
+@end

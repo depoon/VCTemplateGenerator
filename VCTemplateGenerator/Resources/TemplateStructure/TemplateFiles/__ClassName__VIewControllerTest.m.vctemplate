@@ -1,0 +1,35 @@
+//  __ClassName__ViewControllerTest.m
+//  __ClassName__
+
+#import "PGXCTestCase.h"
+#import "__ClassName__ViewController.h"
+#import "OCMockObject.h"
+#import "OCMArg.h"
+#import "OCMockRecorder.h"
+
+
+@interface __ClassName__ViewControllerTest : PGXCTestCase
+
+@end
+
+@implementation __ClassName__ViewControllerTest
+
+__ClassName__ViewController* sut;
+
+- (void)setUp{
+    [super setUp];
+}
+
+- (void)tearDown{
+    [super tearDown];
+    sut = nil;
+}
+
+- (void) testViewDidLoad {
+    
+}
+
+
+
+
+@end

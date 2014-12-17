@@ -1,0 +1,9 @@
+//  __ClassName__ViewModelGenerator.h
+//  __ClassName__
+
+#import <Foundation/Foundation.h>
+#import "__ClassName__ViewModel.h"
+#import "__ClassName__DomainObject.h"
+
+@interface __ClassName__ViewModelGenerator : NSObject
+@end

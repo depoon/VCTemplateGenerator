@@ -1,0 +1,17 @@
+//  __ClassName__ViewManager.h
+//  __ClassName__
+
+#import <Foundation/Foundation.h>
+#import "__ClassName__VmToVcProtocol.h"
+#import "__ClassName__ViewController.h"
+#import "__ClassName__ViewModel.h"
+#import "__ClassName__LogicManagerDelegate.h"
+#import "__ClassName__ViewManagerDelegate.h"
+
+
+@interface __ClassName__ViewManager : NSObject <__ClassName__VmToVcProtocol, __ClassName__LogicManagerDelegate>
+@property (nonatomic, strong) __ClassName__ViewModel* viewModel;
+@property (nonatomic, assign) NSObject<__ClassName__ViewManagerDelegate>* viewManagerDelegate;
+
+- (instancetype) initWithViewController: (__ClassName__ViewController *) vc;
+@end

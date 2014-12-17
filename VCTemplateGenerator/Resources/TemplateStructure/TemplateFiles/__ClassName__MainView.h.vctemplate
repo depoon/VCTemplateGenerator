@@ -1,0 +1,14 @@
+//  __ClassName__MainView.h
+//  __ClassName__
+
+#import <UIKit/UIKit.h>
+#import "__ClassName__ViewModel.h"
+
+
+@class __ClassName__ViewManager;
+
+
+@interface __ClassName__MainView : UIView
+@property (strong, nonatomic) __ClassName__ViewModel* viewModel;
+@property (weak, nonatomic) __ClassName__ViewManager* viewManager;
+@end

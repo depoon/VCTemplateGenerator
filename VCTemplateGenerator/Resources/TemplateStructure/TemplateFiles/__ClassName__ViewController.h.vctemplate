@@ -1,0 +1,10 @@
+//  __ClassName__ViewController.h
+//  __ClassName__
+
+
+#import <UIKit/UIKit.h>
+
+
+@interface __ClassName__ViewController : UIViewController
+
+@end

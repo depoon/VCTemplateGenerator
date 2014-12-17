@@ -1,0 +1,31 @@
+//  __ClassName__ViewModelGeneratorTest.m
+//  __ClassName__
+
+#import "PGXCTestCase.h"
+#import "__ClassName__ViewModelGenerator.h"
+#import "OCMockObject.h"
+#import "OCMArg.h"
+#import "OCMockRecorder.h"
+
+
+@interface __ClassName__ViewModelGeneratorTest : PGXCTestCase
+
+@end
+
+@implementation __ClassName__ViewModelGeneratorTest
+
+__ClassName__ViewModelGenerator* sut;
+
+- (void)setUp{
+    [super setUp];
+}
+
+- (void)tearDown{
+    [super tearDown];
+    sut = nil;
+}
+
+
+
+
+@end

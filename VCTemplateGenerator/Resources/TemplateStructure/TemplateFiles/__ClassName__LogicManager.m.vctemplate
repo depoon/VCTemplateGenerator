@@ -1,0 +1,24 @@
+//  __ClassName__LogicManager.m
+//  __ClassName__
+
+#import "__ClassName__LogicManager.h"
+#import "__ClassName__ViewModelGenerator.h"
+
+@interface __ClassName__LogicManager()
+
+@end
+
+@implementation __ClassName__LogicManager
+@synthesize logicManagerDelegate;
+
+
+-(instancetype) init{
+    self = [super init];
+    return self;
+}
+
+
+-(void) dealloc{
+}
+
+@end

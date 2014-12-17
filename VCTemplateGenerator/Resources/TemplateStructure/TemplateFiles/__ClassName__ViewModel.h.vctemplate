@@ -1,0 +1,8 @@
+//  __ClassName__ViewModel.h
+//  __ClassName__
+
+#import <Foundation/Foundation.h>
+
+@interface __ClassName__ViewModel : NSObject
+
+@end

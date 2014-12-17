@@ -1,0 +1,51 @@
+//  __ClassName__ViewManager.m
+//  __ClassName__
+
+#import "__ClassName__ViewManager.h"
+#import "__ClassName__MainView.h"
+#import "__ClassName__MainViewOwner.h"
+
+
+@interface __ClassName__ViewManager()
+
+
+@end
+
+
+@implementation __ClassName__ViewManager {
+    __weak __ClassName__ViewController* viewController;
+    __ClassName__MainView* mainView;
+    UIView* view;
+}
+
+@synthesize viewModel;
+@synthesize viewManagerDelegate;
+
+
+#pragma mark - Init and Dealloc
+- (instancetype) initWithViewController: (__ClassName__ViewController *) vc {
+    if (self = [super init]) {
+        viewController = vc;
+        __ClassName__MainViewOwner* viewOwner = [[__ClassName__MainViewOwner alloc] init];
+        mainView = viewOwner.myView;
+    }
+    return self;
+}
+
+-(void) dealloc{
+    
+}
+
+#pragma mark - setup
+- (void) setupView: (UIView *) aView {
+    view = aView;
+    [view addSubview:mainView];
+    mainView.frame = view.bounds;
+    mainView.viewManager = self;
+}
+
+
+#pragma  mark - Logic Manager Delegate
+
+
+@end

@@ -1,0 +1,25 @@
+//  __ClassName__MainView.m
+//  __ClassName__
+
+#import "__ClassName__MainView.h"
+#import "__ClassName__ViewManager.h"
+
+@implementation __ClassName__MainView
+
+
+@synthesize viewManager;
+@synthesize viewModel;
+
+
+- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    return self;
+}
+
+
+- (void) awakeFromNib {
+    [super awakeFromNib];
+}
+
+
+@end

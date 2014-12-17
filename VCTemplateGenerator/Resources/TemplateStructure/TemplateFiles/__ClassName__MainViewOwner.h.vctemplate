@@ -1,0 +1,9 @@
+//  __ClassName__MainViewOwner.h
+//  __ClassName__
+
+#import <Foundation/Foundation.h>
+#import "__ClassName__MainView.h"
+
+@interface __ClassName__MainViewOwner : NSObject
+@property (nonatomic, strong) IBOutlet __ClassName__MainView * myView;
+@end

@@ -1,0 +1,15 @@
+//  __ClassName__MainViewOwner.m
+//  __ClassName__
+
+
+#import "__ClassName__MainViewOwner.h"
+
+@implementation __ClassName__MainViewOwner
+
+- (instancetype) init {
+    self = [super init];
+    [[NSBundle mainBundle] loadNibNamed:@"__ClassName__MainView" owner:self options:nil];
+    return self;
+}
+
+@end

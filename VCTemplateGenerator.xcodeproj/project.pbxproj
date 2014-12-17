@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C1B46E11A4180F300D268A6 /* __ClassName__DomainObject.h.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46C41A4180F300D268A6 /* __ClassName__DomainObject.h.vctemplate */; };
+		1C1B46E21A4180F300D268A6 /* __ClassName__DomainObject.m.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46C51A4180F300D268A6 /* __ClassName__DomainObject.m.vctemplate */; };
+		1C1B46E31A4180F300D268A6 /* __ClassName__DomainObjectTest.m.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46C61A4180F300D268A6 /* __ClassName__DomainObjectTest.m.vctemplate */; };
+		1C1B46E41A4180F300D268A6 /* __ClassName__LmToVcProtocol.h.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46C71A4180F300D268A6 /* __ClassName__LmToVcProtocol.h.vctemplate */; };
+		1C1B46E51A4180F300D268A6 /* __ClassName__LogicManager.h.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46C81A4180F300D268A6 /* __ClassName__LogicManager.h.vctemplate */; };
+		1C1B46E61A4180F300D268A6 /* __ClassName__LogicManager.m.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46C91A4180F300D268A6 /* __ClassName__LogicManager.m.vctemplate */; };
+		1C1B46E71A4180F300D268A6 /* __ClassName__LogicManagerDelegate.h.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46CA1A4180F300D268A6 /* __ClassName__LogicManagerDelegate.h.vctemplate */; };
+		1C1B46E81A4180F300D268A6 /* __ClassName__LogicManagerTest.m.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46CB1A4180F300D268A6 /* __ClassName__LogicManagerTest.m.vctemplate */; };
+		1C1B46E91A4180F300D268A6 /* __ClassName__MainView.h.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46CC1A4180F300D268A6 /* __ClassName__MainView.h.vctemplate */; };
+		1C1B46EA1A4180F300D268A6 /* __ClassName__MainView.m.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46CD1A4180F300D268A6 /* __ClassName__MainView.m.vctemplate */; };
+		1C1B46EB1A4180F300D268A6 /* __ClassName__MainView.xib.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46CE1A4180F300D268A6 /* __ClassName__MainView.xib.vctemplate */; };
+		1C1B46EC1A4180F300D268A6 /* __ClassName__MainViewOwner.h.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46CF1A4180F300D268A6 /* __ClassName__MainViewOwner.h.vctemplate */; };
+		1C1B46ED1A4180F300D268A6 /* __ClassName__MainViewOwner.m.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46D01A4180F300D268A6 /* __ClassName__MainViewOwner.m.vctemplate */; };
+		1C1B46EE1A4180F300D268A6 /* __ClassName__MainViewOwnerTest.m.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46D11A4180F300D268A6 /* __ClassName__MainViewOwnerTest.m.vctemplate */; };
+		1C1B46EF1A4180F300D268A6 /* __ClassName__MainViewTest.m.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46D21A4180F300D268A6 /* __ClassName__MainViewTest.m.vctemplate */; };
+		1C1B46F01A4180F300D268A6 /* __ClassName__ViewController.h.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46D31A4180F300D268A6 /* __ClassName__ViewController.h.vctemplate */; };
+		1C1B46F11A4180F300D268A6 /* __ClassName__ViewController.m.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46D41A4180F300D268A6 /* __ClassName__ViewController.m.vctemplate */; };
+		1C1B46F21A4180F300D268A6 /* __ClassName__VIewControllerTest.m.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46D51A4180F300D268A6 /* __ClassName__VIewControllerTest.m.vctemplate */; };
+		1C1B46F31A4180F300D268A6 /* __ClassName__ViewManager.h.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46D61A4180F300D268A6 /* __ClassName__ViewManager.h.vctemplate */; };
+		1C1B46F41A4180F300D268A6 /* __ClassName__ViewManager.m.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46D71A4180F300D268A6 /* __ClassName__ViewManager.m.vctemplate */; };
+		1C1B46F51A4180F300D268A6 /* __ClassName__ViewManagerDelegate.h.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46D81A4180F300D268A6 /* __ClassName__ViewManagerDelegate.h.vctemplate */; };
+		1C1B46F61A4180F300D268A6 /* __ClassName__VIewManagerTest.m.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46D91A4180F300D268A6 /* __ClassName__VIewManagerTest.m.vctemplate */; };
+		1C1B46F71A4180F300D268A6 /* __ClassName__ViewModel.h.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46DA1A4180F300D268A6 /* __ClassName__ViewModel.h.vctemplate */; };
+		1C1B46F81A4180F300D268A6 /* __ClassName__ViewModel.m.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46DB1A4180F300D268A6 /* __ClassName__ViewModel.m.vctemplate */; };
+		1C1B46F91A4180F300D268A6 /* __ClassName__ViewModelGenerator.h.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46DC1A4180F300D268A6 /* __ClassName__ViewModelGenerator.h.vctemplate */; };
+		1C1B46FA1A4180F300D268A6 /* __ClassName__ViewModelGenerator.m.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46DD1A4180F300D268A6 /* __ClassName__ViewModelGenerator.m.vctemplate */; };
+		1C1B46FB1A4180F300D268A6 /* __ClassName__ViewModelGeneratorTest.m.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46DE1A4180F300D268A6 /* __ClassName__ViewModelGeneratorTest.m.vctemplate */; };
+		1C1B46FC1A4180F300D268A6 /* __ClassName__ViewModelTest.m.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46DF1A4180F300D268A6 /* __ClassName__ViewModelTest.m.vctemplate */; };
+		1C1B46FD1A4180F300D268A6 /* __ClassName__VmToVcProtocol.h.vctemplate in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B46E01A4180F300D268A6 /* __ClassName__VmToVcProtocol.h.vctemplate */; };
+		1C1B46FF1A41826400D268A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1B46FE1A41826400D268A6 /* AppDelegate.m */; };
+		B429201218FEC4410031D0B6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B429201118FEC4410031D0B6 /* Cocoa.framework */; };
+		B429201C18FEC4410031D0B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B429201A18FEC4410031D0B6 /* InfoPlist.strings */; };
+		B429201E18FEC4410031D0B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B429201D18FEC4410031D0B6 /* main.m */; };
+		B429202218FEC4410031D0B6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B429202018FEC4410031D0B6 /* Credits.rtf */; };
+		B429202518FEC4410031D0B6 /* TemplaceGeneratorViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = B429202418FEC4410031D0B6 /* TemplaceGeneratorViewController.xib */; };
+		B429202818FEC4410031D0B6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B429202618FEC4410031D0B6 /* MainMenu.xib */; };
+		B429202A18FEC4410031D0B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B429202918FEC4410031D0B6 /* Images.xcassets */; };
+		B429203118FEC4410031D0B6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B429203018FEC4410031D0B6 /* XCTest.framework */; };
+		B429203218FEC4410031D0B6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B429201118FEC4410031D0B6 /* Cocoa.framework */; };
+		B429203A18FEC4410031D0B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B429203818FEC4410031D0B6 /* InfoPlist.strings */; };
+		B429203C18FEC4410031D0B6 /* VCTemplateGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B429203B18FEC4410031D0B6 /* VCTemplateGeneratorTests.m */; };
+		B430689F18FFDF3800C93C16 /* TemplaceGeneratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B430689D18FFDF3800C93C16 /* TemplaceGeneratorViewController.m */; };
+		B43068A018FFDF3800C93C16 /* TemplaceGeneratorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B430689E18FFDF3800C93C16 /* TemplaceGeneratorViewController.xib */; };
+		B43068A419000B9B00C93C16 /* TemplateStructure.plist in Resources */ = {isa = PBXBuildFile; fileRef = B43068A319000B9B00C93C16 /* TemplateStructure.plist */; };
+		B43068B819000DC900C93C16 /* TemplateGeneratorLogicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B43068B719000DC900C93C16 /* TemplateGeneratorLogicManager.m */; };
+		B43068BB19000ECC00C93C16 /* TemplateGeneratorStructureReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B43068BA19000ECC00C93C16 /* TemplateGeneratorStructureReader.m */; };
+		B43068BF19001CBF00C93C16 /* TemplateDomainObjectItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B43068BE19001CBF00C93C16 /* TemplateDomainObjectItem.m */; };
+		B43068C219001CDC00C93C16 /* TemplateDomainObjectItemFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = B43068C119001CDC00C93C16 /* TemplateDomainObjectItemFolder.m */; };
+		B43068C519001CEF00C93C16 /* TemplateDomainObjectItemFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B43068C419001CEF00C93C16 /* TemplateDomainObjectItemFile.m */; };
+		B43068C819001D0900C93C16 /* TemplateDomainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B43068C719001D0900C93C16 /* TemplateDomainObject.m */; };
+		B43068CC190023C500C93C16 /* TemplateDomainObjectGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B43068CB190023C500C93C16 /* TemplateDomainObjectGenerator.m */; };
+		B43068D4190024C300C93C16 /* TemplateGeneratorFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B43068D3190024C300C93C16 /* TemplateGeneratorFileReader.m */; };
+		B43068D81900317C00C93C16 /* TemplateGeneratorFileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = B43068D71900317C00C93C16 /* TemplateGeneratorFileWriter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B429203318FEC4410031D0B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B429200618FEC4410031D0B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B429200D18FEC4410031D0B6;
+			remoteInfo = PGTemplateGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C1B46C31A417B3700D268A6 /* VCTemplateGenerator-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "VCTemplateGenerator-Prefix.pch"; path = "../VCTemplateGenerator/VCTemplateGenerator-Prefix.pch"; sourceTree = "<group>"; };
+		1C1B46C41A4180F300D268A6 /* __ClassName__DomainObject.h.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__DomainObject.h.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__DomainObject.h.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46C51A4180F300D268A6 /* __ClassName__DomainObject.m.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__DomainObject.m.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__DomainObject.m.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46C61A4180F300D268A6 /* __ClassName__DomainObjectTest.m.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__DomainObjectTest.m.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__DomainObjectTest.m.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46C71A4180F300D268A6 /* __ClassName__LmToVcProtocol.h.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__LmToVcProtocol.h.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__LmToVcProtocol.h.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46C81A4180F300D268A6 /* __ClassName__LogicManager.h.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__LogicManager.h.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__LogicManager.h.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46C91A4180F300D268A6 /* __ClassName__LogicManager.m.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__LogicManager.m.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__LogicManager.m.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46CA1A4180F300D268A6 /* __ClassName__LogicManagerDelegate.h.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__LogicManagerDelegate.h.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__LogicManagerDelegate.h.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46CB1A4180F300D268A6 /* __ClassName__LogicManagerTest.m.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__LogicManagerTest.m.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__LogicManagerTest.m.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46CC1A4180F300D268A6 /* __ClassName__MainView.h.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__MainView.h.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__MainView.h.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46CD1A4180F300D268A6 /* __ClassName__MainView.m.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__MainView.m.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__MainView.m.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46CE1A4180F300D268A6 /* __ClassName__MainView.xib.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = __ClassName__MainView.xib.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__MainView.xib.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46CF1A4180F300D268A6 /* __ClassName__MainViewOwner.h.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__MainViewOwner.h.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__MainViewOwner.h.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46D01A4180F300D268A6 /* __ClassName__MainViewOwner.m.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__MainViewOwner.m.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__MainViewOwner.m.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46D11A4180F300D268A6 /* __ClassName__MainViewOwnerTest.m.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__MainViewOwnerTest.m.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__MainViewOwnerTest.m.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46D21A4180F300D268A6 /* __ClassName__MainViewTest.m.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__MainViewTest.m.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__MainViewTest.m.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46D31A4180F300D268A6 /* __ClassName__ViewController.h.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__ViewController.h.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__ViewController.h.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46D41A4180F300D268A6 /* __ClassName__ViewController.m.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__ViewController.m.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__ViewController.m.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46D51A4180F300D268A6 /* __ClassName__VIewControllerTest.m.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__VIewControllerTest.m.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__VIewControllerTest.m.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46D61A4180F300D268A6 /* __ClassName__ViewManager.h.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__ViewManager.h.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__ViewManager.h.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46D71A4180F300D268A6 /* __ClassName__ViewManager.m.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__ViewManager.m.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__ViewManager.m.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46D81A4180F300D268A6 /* __ClassName__ViewManagerDelegate.h.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__ViewManagerDelegate.h.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__ViewManagerDelegate.h.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46D91A4180F300D268A6 /* __ClassName__VIewManagerTest.m.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__VIewManagerTest.m.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__VIewManagerTest.m.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46DA1A4180F300D268A6 /* __ClassName__ViewModel.h.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__ViewModel.h.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__ViewModel.h.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46DB1A4180F300D268A6 /* __ClassName__ViewModel.m.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__ViewModel.m.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__ViewModel.m.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46DC1A4180F300D268A6 /* __ClassName__ViewModelGenerator.h.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__ViewModelGenerator.h.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__ViewModelGenerator.h.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46DD1A4180F300D268A6 /* __ClassName__ViewModelGenerator.m.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__ViewModelGenerator.m.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__ViewModelGenerator.m.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46DE1A4180F300D268A6 /* __ClassName__ViewModelGeneratorTest.m.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__ViewModelGeneratorTest.m.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__ViewModelGeneratorTest.m.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46DF1A4180F300D268A6 /* __ClassName__ViewModelTest.m.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__ViewModelTest.m.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__ViewModelTest.m.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46E01A4180F300D268A6 /* __ClassName__VmToVcProtocol.h.vctemplate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = __ClassName__VmToVcProtocol.h.vctemplate; path = VCTemplateGenerator/Resources/TemplateStructure/TemplateFiles/__ClassName__VmToVcProtocol.h.vctemplate; sourceTree = SOURCE_ROOT; };
+		1C1B46FE1A41826400D268A6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = VCTemplateGenerator/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		B429200E18FEC4410031D0B6 /* VCTemplateGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCTemplateGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B429201118FEC4410031D0B6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B429201418FEC4410031D0B6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B429201518FEC4410031D0B6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B429201618FEC4410031D0B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B429201918FEC4410031D0B6 /* VCTemplateGenerator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "VCTemplateGenerator-Info.plist"; path = "../VCTemplateGenerator/VCTemplateGenerator-Info.plist"; sourceTree = "<group>"; };
+		B429201B18FEC4410031D0B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B429201D18FEC4410031D0B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../VCTemplateGenerator/main.m; sourceTree = "<group>"; };
+		B429202118FEC4410031D0B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B429202318FEC4410031D0B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../VCTemplateGenerator/AppDelegate.h; sourceTree = "<group>"; };
+		B429202418FEC4410031D0B6 /* TemplaceGeneratorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TemplaceGeneratorViewController.xib; path = ../VCTemplateGenerator/TemplaceGeneratorViewController.xib; sourceTree = "<group>"; };
+		B429202718FEC4410031D0B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B429202918FEC4410031D0B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../VCTemplateGenerator/Images.xcassets; sourceTree = "<group>"; };
+		B429202F18FEC4410031D0B6 /* VCTemplateGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VCTemplateGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B429203018FEC4410031D0B6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B429203718FEC4410031D0B6 /* VCTemplateGeneratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "VCTemplateGeneratorTests-Info.plist"; path = "VCTemplateGeneratorTests/VCTemplateGeneratorTests-Info.plist"; sourceTree = "<group>"; };
+		B429203918FEC4410031D0B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B429203B18FEC4410031D0B6 /* VCTemplateGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = VCTemplateGeneratorTests.m; path = VCTemplateGeneratorTests/VCTemplateGeneratorTests.m; sourceTree = "<group>"; };
+		B430689C18FFDF3800C93C16 /* TemplaceGeneratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TemplaceGeneratorViewController.h; path = ../VCTemplateGenerator/TemplaceGeneratorViewController.h; sourceTree = "<group>"; };
+		B430689D18FFDF3800C93C16 /* TemplaceGeneratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TemplaceGeneratorViewController.m; path = ../VCTemplateGenerator/TemplaceGeneratorViewController.m; sourceTree = "<group>"; };
+		B430689E18FFDF3800C93C16 /* TemplaceGeneratorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TemplaceGeneratorViewController.xib; path = ../VCTemplateGenerator/TemplaceGeneratorViewController.xib; sourceTree = "<group>"; };
+		B43068A319000B9B00C93C16 /* TemplateStructure.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TemplateStructure.plist; path = ../VCTemplateGenerator/Resources/TemplateStructure/TemplateStructure.plist; sourceTree = "<group>"; };
+		B43068B619000DC900C93C16 /* TemplateGeneratorLogicManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TemplateGeneratorLogicManager.h; path = ../VCTemplateGenerator/TemplateGeneratorLogicManager.h; sourceTree = "<group>"; };
+		B43068B719000DC900C93C16 /* TemplateGeneratorLogicManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TemplateGeneratorLogicManager.m; path = ../VCTemplateGenerator/TemplateGeneratorLogicManager.m; sourceTree = "<group>"; };
+		B43068B919000ECC00C93C16 /* TemplateGeneratorStructureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TemplateGeneratorStructureReader.h; path = ../VCTemplateGenerator/TemplateGeneratorStructureReader.h; sourceTree = "<group>"; };
+		B43068BA19000ECC00C93C16 /* TemplateGeneratorStructureReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TemplateGeneratorStructureReader.m; path = ../VCTemplateGenerator/TemplateGeneratorStructureReader.m; sourceTree = "<group>"; };
+		B43068BD19001CBF00C93C16 /* TemplateDomainObjectItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TemplateDomainObjectItem.h; path = ../VCTemplateGenerator/TemplateDomainObjectItem.h; sourceTree = "<group>"; };
+		B43068BE19001CBF00C93C16 /* TemplateDomainObjectItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TemplateDomainObjectItem.m; path = ../VCTemplateGenerator/TemplateDomainObjectItem.m; sourceTree = "<group>"; };
+		B43068C019001CDC00C93C16 /* TemplateDomainObjectItemFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TemplateDomainObjectItemFolder.h; path = ../VCTemplateGenerator/TemplateDomainObjectItemFolder.h; sourceTree = "<group>"; };
+		B43068C119001CDC00C93C16 /* TemplateDomainObjectItemFolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TemplateDomainObjectItemFolder.m; path = ../VCTemplateGenerator/TemplateDomainObjectItemFolder.m; sourceTree = "<group>"; };
+		B43068C319001CEF00C93C16 /* TemplateDomainObjectItemFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TemplateDomainObjectItemFile.h; path = ../VCTemplateGenerator/TemplateDomainObjectItemFile.h; sourceTree = "<group>"; };
+		B43068C419001CEF00C93C16 /* TemplateDomainObjectItemFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TemplateDomainObjectItemFile.m; path = ../VCTemplateGenerator/TemplateDomainObjectItemFile.m; sourceTree = "<group>"; };
+		B43068C619001D0900C93C16 /* TemplateDomainObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TemplateDomainObject.h; path = ../VCTemplateGenerator/TemplateDomainObject.h; sourceTree = "<group>"; };
+		B43068C719001D0900C93C16 /* TemplateDomainObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TemplateDomainObject.m; path = ../VCTemplateGenerator/TemplateDomainObject.m; sourceTree = "<group>"; };
+		B43068CA190023C500C93C16 /* TemplateDomainObjectGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TemplateDomainObjectGenerator.h; path = ../VCTemplateGenerator/TemplateDomainObjectGenerator.h; sourceTree = "<group>"; };
+		B43068CB190023C500C93C16 /* TemplateDomainObjectGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TemplateDomainObjectGenerator.m; path = ../VCTemplateGenerator/TemplateDomainObjectGenerator.m; sourceTree = "<group>"; };
+		B43068D2190024C300C93C16 /* TemplateGeneratorFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TemplateGeneratorFileReader.h; path = ../VCTemplateGenerator/TemplateGeneratorFileReader.h; sourceTree = "<group>"; };
+		B43068D3190024C300C93C16 /* TemplateGeneratorFileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TemplateGeneratorFileReader.m; path = ../VCTemplateGenerator/TemplateGeneratorFileReader.m; sourceTree = "<group>"; };
+		B43068D61900317C00C93C16 /* TemplateGeneratorFileWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TemplateGeneratorFileWriter.h; path = ../VCTemplateGenerator/TemplateGeneratorFileWriter.h; sourceTree = "<group>"; };
+		B43068D71900317C00C93C16 /* TemplateGeneratorFileWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TemplateGeneratorFileWriter.m; path = ../VCTemplateGenerator/TemplateGeneratorFileWriter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B429200B18FEC4410031D0B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B429201218FEC4410031D0B6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B429202C18FEC4410031D0B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B429203218FEC4410031D0B6 /* Cocoa.framework in Frameworks */,
+				B429203118FEC4410031D0B6 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B429200518FEC4410031D0B6 = {
+			isa = PBXGroup;
+			children = (
+				B429201718FEC4410031D0B6 /* VCTemplateGenerator */,
+				B429203518FEC4410031D0B6 /* VCTemplateGeneratorTests */,
+				B429201018FEC4410031D0B6 /* Frameworks */,
+				B429200F18FEC4410031D0B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B429200F18FEC4410031D0B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B429200E18FEC4410031D0B6 /* VCTemplateGenerator.app */,
+				B429202F18FEC4410031D0B6 /* VCTemplateGeneratorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B429201018FEC4410031D0B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B429201118FEC4410031D0B6 /* Cocoa.framework */,
+				B429203018FEC4410031D0B6 /* XCTest.framework */,
+				B429201318FEC4410031D0B6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B429201318FEC4410031D0B6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B429201418FEC4410031D0B6 /* AppKit.framework */,
+				B429201518FEC4410031D0B6 /* CoreData.framework */,
+				B429201618FEC4410031D0B6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B429201718FEC4410031D0B6 /* VCTemplateGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				B43068CE1900245600C93C16 /* AppDelegate */,
+				B43068CF1900246000C93C16 /* ViewController */,
+				B43068D01900248100C93C16 /* LogicManager */,
+				B43068D11900249200C93C16 /* Plist reader */,
+				B43068CD1900244700C93C16 /* FileReader */,
+				B43068D51900315900C93C16 /* FileWriter */,
+				B43068C91900239C00C93C16 /* DomainObjectGenerator */,
+				B43068BC19001C6D00C93C16 /* DomainObject */,
+				B429202918FEC4410031D0B6 /* Images.xcassets */,
+				B43068A118FFE4E100C93C16 /* Resources */,
+				B429201818FEC4410031D0B6 /* Supporting Files */,
+			);
+			name = VCTemplateGenerator;
+			path = PGTemplateGenerator;
+			sourceTree = "<group>";
+		};
+		B429201818FEC4410031D0B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B429201918FEC4410031D0B6 /* VCTemplateGenerator-Info.plist */,
+				B429201A18FEC4410031D0B6 /* InfoPlist.strings */,
+				B429201D18FEC4410031D0B6 /* main.m */,
+				1C1B46C31A417B3700D268A6 /* VCTemplateGenerator-Prefix.pch */,
+				B429202018FEC4410031D0B6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B429203518FEC4410031D0B6 /* VCTemplateGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B429203B18FEC4410031D0B6 /* VCTemplateGeneratorTests.m */,
+				B429203618FEC4410031D0B6 /* Supporting Files */,
+			);
+			name = VCTemplateGeneratorTests;
+			path = PGTemplateGeneratorTests;
+			sourceTree = "<group>";
+		};
+		B429203618FEC4410031D0B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B429203718FEC4410031D0B6 /* VCTemplateGeneratorTests-Info.plist */,
+				B429203818FEC4410031D0B6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B43068A118FFE4E100C93C16 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B43068A519000CDC00C93C16 /* TemplateFiles */,
+				B43068A219000B7A00C93C16 /* TemplateStructure */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B43068A219000B7A00C93C16 /* TemplateStructure */ = {
+			isa = PBXGroup;
+			children = (
+				B43068A319000B9B00C93C16 /* TemplateStructure.plist */,
+			);
+			name = TemplateStructure;
+			sourceTree = "<group>";
+		};
+		B43068A519000CDC00C93C16 /* TemplateFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1C1B46C41A4180F300D268A6 /* __ClassName__DomainObject.h.vctemplate */,
+				1C1B46C51A4180F300D268A6 /* __ClassName__DomainObject.m.vctemplate */,
+				1C1B46C61A4180F300D268A6 /* __ClassName__DomainObjectTest.m.vctemplate */,
+				1C1B46C71A4180F300D268A6 /* __ClassName__LmToVcProtocol.h.vctemplate */,
+				1C1B46C81A4180F300D268A6 /* __ClassName__LogicManager.h.vctemplate */,
+				1C1B46C91A4180F300D268A6 /* __ClassName__LogicManager.m.vctemplate */,
+				1C1B46CA1A4180F300D268A6 /* __ClassName__LogicManagerDelegate.h.vctemplate */,
+				1C1B46CB1A4180F300D268A6 /* __ClassName__LogicManagerTest.m.vctemplate */,
+				1C1B46CC1A4180F300D268A6 /* __ClassName__MainView.h.vctemplate */,
+				1C1B46CD1A4180F300D268A6 /* __ClassName__MainView.m.vctemplate */,
+				1C1B46CE1A4180F300D268A6 /* __ClassName__MainView.xib.vctemplate */,
+				1C1B46CF1A4180F300D268A6 /* __ClassName__MainViewOwner.h.vctemplate */,
+				1C1B46D01A4180F300D268A6 /* __ClassName__MainViewOwner.m.vctemplate */,
+				1C1B46D11A4180F300D268A6 /* __ClassName__MainViewOwnerTest.m.vctemplate */,
+				1C1B46D21A4180F300D268A6 /* __ClassName__MainViewTest.m.vctemplate */,
+				1C1B46D31A4180F300D268A6 /* __ClassName__ViewController.h.vctemplate */,
+				1C1B46D41A4180F300D268A6 /* __ClassName__ViewController.m.vctemplate */,
+				1C1B46D51A4180F300D268A6 /* __ClassName__VIewControllerTest.m.vctemplate */,
+				1C1B46D61A4180F300D268A6 /* __ClassName__ViewManager.h.vctemplate */,
+				1C1B46D71A4180F300D268A6 /* __ClassName__ViewManager.m.vctemplate */,
+				1C1B46D81A4180F300D268A6 /* __ClassName__ViewManagerDelegate.h.vctemplate */,
+				1C1B46D91A4180F300D268A6 /* __ClassName__VIewManagerTest.m.vctemplate */,
+				1C1B46DA1A4180F300D268A6 /* __ClassName__ViewModel.h.vctemplate */,
+				1C1B46DB1A4180F300D268A6 /* __ClassName__ViewModel.m.vctemplate */,
+				1C1B46DC1A4180F300D268A6 /* __ClassName__ViewModelGenerator.h.vctemplate */,
+				1C1B46DD1A4180F300D268A6 /* __ClassName__ViewModelGenerator.m.vctemplate */,
+				1C1B46DE1A4180F300D268A6 /* __ClassName__ViewModelGeneratorTest.m.vctemplate */,
+				1C1B46DF1A4180F300D268A6 /* __ClassName__ViewModelTest.m.vctemplate */,
+				1C1B46E01A4180F300D268A6 /* __ClassName__VmToVcProtocol.h.vctemplate */,
+			);
+			name = TemplateFiles;
+			sourceTree = "<group>";
+		};
+		B43068BC19001C6D00C93C16 /* DomainObject */ = {
+			isa = PBXGroup;
+			children = (
+				B43068BD19001CBF00C93C16 /* TemplateDomainObjectItem.h */,
+				B43068BE19001CBF00C93C16 /* TemplateDomainObjectItem.m */,
+				B43068C019001CDC00C93C16 /* TemplateDomainObjectItemFolder.h */,
+				B43068C119001CDC00C93C16 /* TemplateDomainObjectItemFolder.m */,
+				B43068C319001CEF00C93C16 /* TemplateDomainObjectItemFile.h */,
+				B43068C419001CEF00C93C16 /* TemplateDomainObjectItemFile.m */,
+				B43068C619001D0900C93C16 /* TemplateDomainObject.h */,
+				B43068C719001D0900C93C16 /* TemplateDomainObject.m */,
+			);
+			name = DomainObject;
+			sourceTree = "<group>";
+		};
+		B43068C91900239C00C93C16 /* DomainObjectGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				B43068CA190023C500C93C16 /* TemplateDomainObjectGenerator.h */,
+				B43068CB190023C500C93C16 /* TemplateDomainObjectGenerator.m */,
+			);
+			name = DomainObjectGenerator;
+			sourceTree = "<group>";
+		};
+		B43068CD1900244700C93C16 /* FileReader */ = {
+			isa = PBXGroup;
+			children = (
+				B43068D2190024C300C93C16 /* TemplateGeneratorFileReader.h */,
+				B43068D3190024C300C93C16 /* TemplateGeneratorFileReader.m */,
+			);
+			name = FileReader;
+			sourceTree = "<group>";
+		};
+		B43068CE1900245600C93C16 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B429202318FEC4410031D0B6 /* AppDelegate.h */,
+				1C1B46FE1A41826400D268A6 /* AppDelegate.m */,
+				B429202418FEC4410031D0B6 /* TemplaceGeneratorViewController.xib */,
+				B429202618FEC4410031D0B6 /* MainMenu.xib */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B43068CF1900246000C93C16 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B430689C18FFDF3800C93C16 /* TemplaceGeneratorViewController.h */,
+				B430689D18FFDF3800C93C16 /* TemplaceGeneratorViewController.m */,
+				B430689E18FFDF3800C93C16 /* TemplaceGeneratorViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		B43068D01900248100C93C16 /* LogicManager */ = {
+			isa = PBXGroup;
+			children = (
+				B43068B619000DC900C93C16 /* TemplateGeneratorLogicManager.h */,
+				B43068B719000DC900C93C16 /* TemplateGeneratorLogicManager.m */,
+			);
+			name = LogicManager;
+			sourceTree = "<group>";
+		};
+		B43068D11900249200C93C16 /* Plist reader */ = {
+			isa = PBXGroup;
+			children = (
+				B43068B919000ECC00C93C16 /* TemplateGeneratorStructureReader.h */,
+				B43068BA19000ECC00C93C16 /* TemplateGeneratorStructureReader.m */,
+			);
+			name = "Plist reader";
+			sourceTree = "<group>";
+		};
+		B43068D51900315900C93C16 /* FileWriter */ = {
+			isa = PBXGroup;
+			children = (
+				B43068D61900317C00C93C16 /* TemplateGeneratorFileWriter.h */,
+				B43068D71900317C00C93C16 /* TemplateGeneratorFileWriter.m */,
+			);
+			name = FileWriter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B429200D18FEC4410031D0B6 /* VCTemplateGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B429203F18FEC4410031D0B6 /* Build configuration list for PBXNativeTarget "VCTemplateGenerator" */;
+			buildPhases = (
+				B429200A18FEC4410031D0B6 /* Sources */,
+				B429200B18FEC4410031D0B6 /* Frameworks */,
+				B429200C18FEC4410031D0B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VCTemplateGenerator;
+			productName = PGTemplateGenerator;
+			productReference = B429200E18FEC4410031D0B6 /* VCTemplateGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B429202E18FEC4410031D0B6 /* VCTemplateGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B429204218FEC4410031D0B6 /* Build configuration list for PBXNativeTarget "VCTemplateGeneratorTests" */;
+			buildPhases = (
+				B429202B18FEC4410031D0B6 /* Sources */,
+				B429202C18FEC4410031D0B6 /* Frameworks */,
+				B429202D18FEC4410031D0B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B429203418FEC4410031D0B6 /* PBXTargetDependency */,
+			);
+			name = VCTemplateGeneratorTests;
+			productName = PGTemplateGeneratorTests;
+			productReference = B429202F18FEC4410031D0B6 /* VCTemplateGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B429200618FEC4410031D0B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = PropertyGuru;
+				TargetAttributes = {
+					B429202E18FEC4410031D0B6 = {
+						TestTargetID = B429200D18FEC4410031D0B6;
+					};
+				};
+			};
+			buildConfigurationList = B429200918FEC4410031D0B6 /* Build configuration list for PBXProject "VCTemplateGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B429200518FEC4410031D0B6;
+			productRefGroup = B429200F18FEC4410031D0B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B429200D18FEC4410031D0B6 /* VCTemplateGenerator */,
+				B429202E18FEC4410031D0B6 /* VCTemplateGeneratorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B429200C18FEC4410031D0B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1B46E71A4180F300D268A6 /* __ClassName__LogicManagerDelegate.h.vctemplate in Resources */,
+				1C1B46E31A4180F300D268A6 /* __ClassName__DomainObjectTest.m.vctemplate in Resources */,
+				1C1B46EE1A4180F300D268A6 /* __ClassName__MainViewOwnerTest.m.vctemplate in Resources */,
+				1C1B46F41A4180F300D268A6 /* __ClassName__ViewManager.m.vctemplate in Resources */,
+				1C1B46F11A4180F300D268A6 /* __ClassName__ViewController.m.vctemplate in Resources */,
+				1C1B46ED1A4180F300D268A6 /* __ClassName__MainViewOwner.m.vctemplate in Resources */,
+				B429201C18FEC4410031D0B6 /* InfoPlist.strings in Resources */,
+				1C1B46E11A4180F300D268A6 /* __ClassName__DomainObject.h.vctemplate in Resources */,
+				1C1B46F61A4180F300D268A6 /* __ClassName__VIewManagerTest.m.vctemplate in Resources */,
+				1C1B46FA1A4180F300D268A6 /* __ClassName__ViewModelGenerator.m.vctemplate in Resources */,
+				1C1B46F01A4180F300D268A6 /* __ClassName__ViewController.h.vctemplate in Resources */,
+				1C1B46EC1A4180F300D268A6 /* __ClassName__MainViewOwner.h.vctemplate in Resources */,
+				B429202A18FEC4410031D0B6 /* Images.xcassets in Resources */,
+				1C1B46F31A4180F300D268A6 /* __ClassName__ViewManager.h.vctemplate in Resources */,
+				B43068A419000B9B00C93C16 /* TemplateStructure.plist in Resources */,
+				1C1B46E81A4180F300D268A6 /* __ClassName__LogicManagerTest.m.vctemplate in Resources */,
+				1C1B46FC1A4180F300D268A6 /* __ClassName__ViewModelTest.m.vctemplate in Resources */,
+				1C1B46F51A4180F300D268A6 /* __ClassName__ViewManagerDelegate.h.vctemplate in Resources */,
+				B43068A018FFDF3800C93C16 /* TemplaceGeneratorViewController.xib in Resources */,
+				1C1B46F81A4180F300D268A6 /* __ClassName__ViewModel.m.vctemplate in Resources */,
+				B429202218FEC4410031D0B6 /* Credits.rtf in Resources */,
+				1C1B46EB1A4180F300D268A6 /* __ClassName__MainView.xib.vctemplate in Resources */,
+				1C1B46EF1A4180F300D268A6 /* __ClassName__MainViewTest.m.vctemplate in Resources */,
+				1C1B46E41A4180F300D268A6 /* __ClassName__LmToVcProtocol.h.vctemplate in Resources */,
+				1C1B46EA1A4180F300D268A6 /* __ClassName__MainView.m.vctemplate in Resources */,
+				1C1B46F21A4180F300D268A6 /* __ClassName__VIewControllerTest.m.vctemplate in Resources */,
+				1C1B46F91A4180F300D268A6 /* __ClassName__ViewModelGenerator.h.vctemplate in Resources */,
+				1C1B46FB1A4180F300D268A6 /* __ClassName__ViewModelGeneratorTest.m.vctemplate in Resources */,
+				1C1B46FD1A4180F300D268A6 /* __ClassName__VmToVcProtocol.h.vctemplate in Resources */,
+				1C1B46E51A4180F300D268A6 /* __ClassName__LogicManager.h.vctemplate in Resources */,
+				1C1B46E21A4180F300D268A6 /* __ClassName__DomainObject.m.vctemplate in Resources */,
+				1C1B46E61A4180F300D268A6 /* __ClassName__LogicManager.m.vctemplate in Resources */,
+				1C1B46F71A4180F300D268A6 /* __ClassName__ViewModel.h.vctemplate in Resources */,
+				1C1B46E91A4180F300D268A6 /* __ClassName__MainView.h.vctemplate in Resources */,
+				B429202818FEC4410031D0B6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B429202D18FEC4410031D0B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B429203A18FEC4410031D0B6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B429200A18FEC4410031D0B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43068C819001D0900C93C16 /* TemplateDomainObject.m in Sources */,
+				B429202518FEC4410031D0B6 /* TemplaceGeneratorViewController.xib in Sources */,
+				B43068CC190023C500C93C16 /* TemplateDomainObjectGenerator.m in Sources */,
+				B43068C219001CDC00C93C16 /* TemplateDomainObjectItemFolder.m in Sources */,
+				B43068D81900317C00C93C16 /* TemplateGeneratorFileWriter.m in Sources */,
+				B43068BB19000ECC00C93C16 /* TemplateGeneratorStructureReader.m in Sources */,
+				B43068C519001CEF00C93C16 /* TemplateDomainObjectItemFile.m in Sources */,
+				1C1B46FF1A41826400D268A6 /* AppDelegate.m in Sources */,
+				B429201E18FEC4410031D0B6 /* main.m in Sources */,
+				B43068B819000DC900C93C16 /* TemplateGeneratorLogicManager.m in Sources */,
+				B430689F18FFDF3800C93C16 /* TemplaceGeneratorViewController.m in Sources */,
+				B43068BF19001CBF00C93C16 /* TemplateDomainObjectItem.m in Sources */,
+				B43068D4190024C300C93C16 /* TemplateGeneratorFileReader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B429202B18FEC4410031D0B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B429203C18FEC4410031D0B6 /* VCTemplateGeneratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B429203418FEC4410031D0B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B429200D18FEC4410031D0B6 /* VCTemplateGenerator */;
+			targetProxy = B429203318FEC4410031D0B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B429201A18FEC4410031D0B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B429201B18FEC4410031D0B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = ../VCTemplateGenerator;
+			sourceTree = "<group>";
+		};
+		B429202018FEC4410031D0B6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B429202118FEC4410031D0B6 /* en */,
+			);
+			name = Credits.rtf;
+			path = ../VCTemplateGenerator;
+			sourceTree = "<group>";
+		};
+		B429202618FEC4410031D0B6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B429202718FEC4410031D0B6 /* Base */,
+			);
+			name = MainMenu.xib;
+			path = ../VCTemplateGenerator;
+			sourceTree = "<group>";
+		};
+		B429203818FEC4410031D0B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B429203918FEC4410031D0B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = VCTemplateGeneratorTests;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B429203D18FEC4410031D0B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B429203E18FEC4410031D0B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B429204018FEC4410031D0B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VCTemplateGenerator/VCTemplateGenerator-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/VCTemplateGenerator/VCTemplateGenerator-Info.plist";
+				PRODUCT_NAME = VCTemplateGenerator;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B429204118FEC4410031D0B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VCTemplateGenerator/VCTemplateGenerator-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/VCTemplateGenerator/VCTemplateGenerator-Info.plist";
+				PRODUCT_NAME = VCTemplateGenerator;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B429204318FEC4410031D0B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PGTemplateGenerator.app/Contents/MacOS/PGTemplateGenerator";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PGTemplateGenerator/PGTemplateGenerator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PGTemplateGeneratorTests/VCTemplateGeneratorTests-Info.plist";
+				PRODUCT_NAME = VCTemplateGeneratorTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B429204418FEC4410031D0B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PGTemplateGenerator.app/Contents/MacOS/PGTemplateGenerator";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PGTemplateGenerator/PGTemplateGenerator-Prefix.pch";
+				INFOPLIST_FILE = "PGTemplateGeneratorTests/VCTemplateGeneratorTests-Info.plist";
+				PRODUCT_NAME = VCTemplateGeneratorTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B429200918FEC4410031D0B6 /* Build configuration list for PBXProject "VCTemplateGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B429203D18FEC4410031D0B6 /* Debug */,
+				B429203E18FEC4410031D0B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B429203F18FEC4410031D0B6 /* Build configuration list for PBXNativeTarget "VCTemplateGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B429204018FEC4410031D0B6 /* Debug */,
+				B429204118FEC4410031D0B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B429204218FEC4410031D0B6 /* Build configuration list for PBXNativeTarget "VCTemplateGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B429204318FEC4410031D0B6 /* Debug */,
+				B429204418FEC4410031D0B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B429200618FEC4410031D0B6 /* Project object */;
+}

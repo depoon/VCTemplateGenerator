@@ -1,0 +1,37 @@
+//  __ClassName__MainViewOwnerTest.m
+//  __ClassName__
+
+#import "PGXCTestCase.h"
+#import "__ClassName__MainViewOwner.h"
+#import "OCMockObject.h"
+#import "OCMArg.h"
+#import "OCMockRecorder.h"
+#import "__ClassName__MainView.h"
+
+
+@interface __ClassName__MainViewOwnerTest : PGXCTestCase
+
+@end
+
+@implementation __ClassName__MainViewOwnerTest
+
+__ClassName__MainViewOwner* sut;
+
+- (void)setUp{
+    [super setUp];
+}
+
+- (void)tearDown{
+    [super tearDown];
+    sut = nil;
+}
+
+- (void) testInit {
+//    sut = [[__ClassName__MainViewOwner alloc] init];
+//    __ClassName__MainView* mainView = sut.myView;
+//    XCTAssertTrue([mainView isKindOfClass: [__ClassName__MainView class]], @"mainView should belong to class %@", @"__ClassName__MainView");
+}
+
+
+
+@end

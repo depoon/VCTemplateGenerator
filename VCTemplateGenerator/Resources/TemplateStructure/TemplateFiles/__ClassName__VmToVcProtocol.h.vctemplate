@@ -1,0 +1,12 @@
+//  __ClassName__VmToVcProtocol.h
+//  __ClassName__
+
+#import <Foundation/Foundation.h>
+#import "__ClassName__DomainObject.h"
+#import "__ClassName__ViewManagerDelegate.h"
+
+
+@protocol __ClassName__VmToVcProtocol <NSObject>
+- (void) setupView: (UIView *) view;
+- (void) setViewManagerDelegate: (NSObject <__ClassName__ViewManagerDelegate> *) delegate;
+@end

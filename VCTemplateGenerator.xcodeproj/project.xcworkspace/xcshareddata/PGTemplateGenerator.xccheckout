@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6AD40B64-3B9C-4E45-86A1-F7CDBB813246</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PGTemplateGenerator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>679DCE0FBD7C51A9BA11BB20C6BD33B53ABEF3EC</key>
+		<string>https://github.com/propertyguru/mobile-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tools/PGTemplateGenerator/PGTemplateGenerator.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>679DCE0FBD7C51A9BA11BB20C6BD33B53ABEF3EC</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/propertyguru/mobile-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>679DCE0FBD7C51A9BA11BB20C6BD33B53ABEF3EC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>679DCE0FBD7C51A9BA11BB20C6BD33B53ABEF3EC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mobile-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

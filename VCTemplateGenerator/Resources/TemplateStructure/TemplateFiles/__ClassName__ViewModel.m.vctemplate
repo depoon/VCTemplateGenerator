@@ -1,0 +1,9 @@
+//  __ClassName__ViewModel.m
+//  __ClassName__
+
+
+#import "__ClassName__ViewModel.h"
+
+@implementation __ClassName__ViewModel
+
+@end

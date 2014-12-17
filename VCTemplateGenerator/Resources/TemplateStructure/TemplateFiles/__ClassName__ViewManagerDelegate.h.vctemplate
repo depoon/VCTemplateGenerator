@@ -1,0 +1,7 @@
+//  __ClassName__ViewManagerDelegate.h
+//  __ClassName__
+
+#import <Foundation/Foundation.h>
+
+@protocol __ClassName__ViewManagerDelegate <NSObject>
+@end

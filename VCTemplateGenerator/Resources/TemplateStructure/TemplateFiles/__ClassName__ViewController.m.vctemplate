@@ -1,0 +1,54 @@
+//  __ClassName__ViewControllerViewController.m
+//  __ClassName__ViewController
+
+#import "__ClassName__ViewController.h"
+#import "__ClassName__ViewManager.h"
+#import "__ClassName__VmToVcProtocol.h"
+#import "__ClassName__LmToVcProtocol.h"
+#import "__ClassName__LogicManager.h"
+#import "__ClassName__ViewManagerDelegate.h"
+#import "__ClassName__LogicManagerDelegate.h"
+
+@interface __ClassName__ViewController ()
+@property (nonatomic, strong) NSObject <__ClassName__VmToVcProtocol, __ClassName__LogicManagerDelegate> * viewManager;
+@property (nonatomic, strong) NSObject <__ClassName__LmToVcProtocol, __ClassName__ViewManagerDelegate> * logicManager;
+@end
+
+
+@implementation __ClassName__ViewController
+@synthesize viewManager;
+@synthesize logicManager;
+
+
+#pragma mark - Init and Dealloc
+
+- (instancetype)init{
+    self = [super init];
+    if (self) {
+        
+        self.viewManager = [[__ClassName__ViewManager alloc] initWithViewController:self];
+        self.logicManager = [[__ClassName__LogicManager alloc]init];
+        [self.logicManager setLogicManagerDelegate: self.viewManager];
+        [self.viewManager setViewManagerDelegate: self.logicManager];
+    }
+    return self;
+}
+
+-(void) dealloc{
+    self.viewManager = nil;;
+    self.logicManager = nil;
+}
+
+
+#pragma mark - ViewController life cycle
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    [self.viewManager setupView: self.view];
+}
+
+
+
+
+@end

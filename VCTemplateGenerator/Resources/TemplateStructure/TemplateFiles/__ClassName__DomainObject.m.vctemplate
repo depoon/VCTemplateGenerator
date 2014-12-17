@@ -1,0 +1,13 @@
+//  __ClassName__ViewModel.m
+//  __ClassName__
+
+#import "__ClassName__DomainObject.h"
+
+@implementation __ClassName__DomainObject
+
+- (instancetype) init {
+    if (self = [super init]) {
+    }
+    return self;
+}
+@end

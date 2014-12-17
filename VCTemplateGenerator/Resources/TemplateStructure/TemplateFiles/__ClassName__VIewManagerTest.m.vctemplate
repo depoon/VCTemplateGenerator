@@ -1,0 +1,34 @@
+//  __ClassName__ViewManagerTest.m
+//  __ClassName__
+
+#import "PGXCTestCase.h"
+#import "__ClassName__ViewManager.h"
+#import "OCMockObject.h"
+#import "OCMArg.h"
+#import "OCMockRecorder.h"
+
+
+@interface __ClassName__ViewManagerTest : PGXCTestCase
+
+@end
+
+@implementation __ClassName__ViewManagerTest
+
+__ClassName__ViewManager* sut;
+
+- (void)setUp{
+    [super setUp];
+}
+
+- (void)tearDown{
+    [super tearDown];
+    sut = nil;
+}
+
+- (void) testSetupView {
+
+}
+
+
+
+@end

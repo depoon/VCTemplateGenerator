@@ -1,0 +1,8 @@
+//  __ClassName__ViewModelGenerator.m
+//  __ClassName__
+
+#import "__ClassName__ViewModelGenerator.h"
+
+@implementation __ClassName__ViewModelGenerator
+
+@end

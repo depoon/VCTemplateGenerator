@@ -1,0 +1,31 @@
+//  __ClassName__LogicManagerTest.m
+//  __ClassName__
+
+#import "PGXCTestCase.h"
+#import "__ClassName__LogicManager.h"
+#import "OCMockObject.h"
+#import "OCMArg.h"
+#import "OCMockRecorder.h"
+
+
+@interface __ClassName__LogicManagerTest : PGXCTestCase
+
+@end
+
+@implementation __ClassName__LogicManagerTest
+
+__ClassName__LogicManager* sut;
+
+- (void)setUp{
+    [super setUp];
+}
+
+- (void)tearDown{
+    [super tearDown];
+    sut = nil;
+}
+
+
+
+
+@end

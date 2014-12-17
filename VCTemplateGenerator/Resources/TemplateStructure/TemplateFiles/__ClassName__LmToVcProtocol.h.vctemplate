@@ -1,0 +1,9 @@
+//  __ClassName__LmToVcProtocol.h
+//  __ClassName__
+
+#import <Foundation/Foundation.h>
+#import "__ClassName__LogicManagerDelegate.h"
+
+@protocol __ClassName__LmToVcProtocol <NSObject>
+- (void) setLogicManagerDelegate: (NSObject <__ClassName__LogicManagerDelegate> *) delegate;
+@end
